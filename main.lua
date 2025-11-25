@@ -1,4 +1,4 @@
 require('_table')
 
 local foo = require('dependent')
-foo:foo()
+print(foo:foo())
